@@ -1,0 +1,363 @@
+/*  
+	SHIT TO FIX:
+     		- pixels vs percentage vs em (static vs dynamic)
+			- nav bar: 	how to raise, center, position text
+						how to add blue separator lines
+						hover or select instead of text-decoration: underline???
+			- #bigheadline:
+					how to make text bright white?? (font weight??)
+					font taller / thinner
+			- why do last three buttons move to left of straight edge????
+*/
+
+
+
+body {
+	background-color: #e8e8e8;
+	width: 1018px;
+	margin: auto;
+}
+
+
+header {
+	background: url(images/header.jpg);
+	margin: 0 auto 0 auto;
+	width: 1018px;
+}
+
+			#logoimg {
+				margin: 45px 0 -55px 94px;
+			}
+
+			#headertext {
+				color: white;
+				text-align: right;
+				font-style: italic;
+				font-size: 110%;
+				margin: 6px 95px 37px 0;
+			}
+
+
+nav {
+	height: 30px;
+	width: 780px;
+	background: url(images/nav.jpg);
+	margin: auto;
+	padding: 20px;
+	min-width: 600px;
+	text-align: center;
+	border-radius: 1em 1em 0 0;
+}
+
+			li {
+				display: inline;
+				list-style: none;
+			}
+
+/*			ul li:first-child {
+				text-decoration: underline;
+			}*/
+
+			.navbar {
+				color: white;
+				text-decoration: none;
+				font-size: 110%;
+				padding: 25px;
+				text-align: center;
+			}
+
+
+#wrapper {
+	background-color: #fff;
+	width: 780px;
+	padding: 20px;
+	border-radius: 0 0 1em 1em;
+	margin: auto;
+	overflow: hidden;
+}
+
+
+#toppictextbox {
+	position: relative;
+}
+
+			#modernpool {
+				z-index: 1;
+				width: 100%;
+				float: left;
+			}
+
+			#bigheadline {
+				z-index: 100;
+				position: absolute;
+				top: 60px;
+				right: 0;
+				line-height: .70em;
+				text-align: right;
+				font-size: 240%;
+				color: white;
+				font-weight: bold;
+				padding: 34px 26px 28px 15px;
+				width: 352px;
+				background-color: black;
+				opacity: 0.60;	
+			}
+
+
+#threedetailsbanner {
+	position: relative;
+	overflow: hidden;
+	float: left;
+	height: 180px;	
+	margin-top: 25px;
+	width: 100%;
+	min-width: 600px;
+	background-image: url(images/banner-tail.gif);		
+}
+
+			#planning {
+				display: inline-block;
+				position: absolute;
+				color: white;
+				width: 290px;
+				font-size: .3em;				
+			}
+								
+						#planning img {
+							float: left;
+							width: 80px;
+							padding-left: 20px;
+							padding-top: 30px;
+						}
+
+						#planning h2 {
+							font-size: 6em;
+							float: left;
+							margin-top: 25px;
+							margin-left: 10px;
+						}
+
+						#planning p {
+							width: 135px;
+							font-size: .3em;
+							float: left;
+							margin-left: 10px;
+							margin-top: -14px;
+						}
+
+						#detailsbutton1 {
+							position: absolute;
+							margin-left: 20px;
+							margin-top: 130px;
+							height: 25px;
+							width: 80px;
+							background-color: silver;
+						}
+
+			#coding {
+				position: absolute;
+				display: inline-block;
+				float: left;
+				width: 290px;
+				color: white;
+				font-size: .3em;
+				margin-left: 280px;
+			}
+
+						#coding img {
+							float: left;
+							width: 80px;
+							padding-left: 0px;
+							padding-top: 30px;
+						}
+
+						#coding h2 {
+							font-size: 6em;
+							float: left;
+							margin-left: 10px;
+						}
+
+						#coding p {
+							width: 140px;
+							float: left;
+							margin-top: -14px;
+							margin-left: 10px;	
+						}
+
+						#detailsbutton2 {
+							position: absolute;
+							height: 25px;
+							width: 80px;
+							margin-top: 130px;
+							margin-right: 10px;
+							background-color: silver;
+						}
+
+
+			#optimize {
+				position: absolute;
+				display: inline-block;
+				float: left;
+				width: 290px;
+				margin-left: 535px;
+				font-size: .3em;
+				color: white;
+			}
+
+						#optimize img {
+							float: left;
+							padding-left: 10px;
+							width: 80px;
+							padding-top: 30px;
+						}
+		
+						#optimize h2 {
+							font-size: 6em;
+							float: left;
+							margin-left: 10px;
+						}
+
+						#optimize p {
+							width: 140px;
+							float: left;
+							margin-left: 10px;
+							margin-top: -14px;
+						}
+
+						#detailsbutton3 {
+							position: absolute;
+							margin-left: 10px;
+							margin-top: 130px;
+							height: 25px;
+							width: 80px;
+							background-color: silver						}
+
+
+#bottomleftbox {
+/*		width: 620px;  */		
+		clear: left;
+}
+
+					#creativedesign {
+						position: absolute;
+						float: left;
+						clear: left;
+						margin-top: 50px;
+						width: 520px;
+						font-size: 1.1em;
+					}
+
+								#creativedesign img {
+									width: 240px;
+
+									float: left;
+									clear: left;
+								}
+
+								#creativedesign h2 {
+									margin-left: 220px;
+									margin-top: 0px;
+									padding-left: 30px;
+									margin-bottom: 40px;
+								}
+
+								#creativedesign p {
+									font-size: 20%;
+									margin-left: 220px;
+									padding-left: 30px;
+									margin-top: -10px;
+								}
+
+					#popularposts {
+						position: absolute;
+						margin-top: 340px;
+						float: left;
+						width: 300px;
+					}
+								#popularposts h2 {
+
+								}
+
+								span {
+
+								}
+
+					#newperspectives {
+						position: absolute;
+						
+						margin-top: 340px;
+						margin-left: 300px;
+						width: 200px;
+					}
+								#newperspectives h2 {
+
+								}
+
+								#newperspectives p {
+
+								}
+
+								#detailsbutton4 {
+									position: absolute;
+									height: 25px;
+									width: 80px;
+									background-color: silver;
+									
+								}
+
+
+aside {
+	margin-top: 30px;
+	float: right;
+	width: 220px;
+}
+			aside h3 {
+				background: url(images/nav.jpg);
+				color: white;
+				height: 40px;
+				padding-left: 15px;
+				padding-top: 15px;
+			}
+
+			#july14 {
+
+			}
+
+			#april14 {
+
+			}
+
+			#march14 {
+
+			}
+
+			
+.detailslink {
+	font-style: italic;
+	text-decoration: none;
+}
+
+.arapeyfont {
+	font-family: "Arapey", serif;
+}
+
+footer {
+	font-family: serif;
+	font-style: italic;
+	text-align: right;
+	margin-right: 100px;
+}
+		
+		#adamscottlink {
+				color: blue;
+				text-decoration: none;
+
+			}
+
+
+
+
+
+
+
+

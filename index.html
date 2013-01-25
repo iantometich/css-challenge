@@ -1,0 +1,151 @@
+<!--CSS Challenge Instructions
+
+Using the screenshot (screenshot.png) provided, markup and code the layout of this page.  Don't worry about the style of the site so much as just getting the layout right.  If you get the layout down, move on to the bonus round: styling it.
+
+A couple hints:
+	•	the site is 1018px wide
+	•	the headlines font is 'Arapey' which can be found on Google Web Fonts
+	•	the logo font is League Gothic which you can find on Font Squirrel
+
+Bonus
+Using the included images and your CSS knowledge try to recreate the design style of this page. -->
+
+
+<!--	
+		SHIT TO FIX:  
+			h1 h2 h3 tags??? how to fix/change?? 
+
+-->
+
+<!doctype html>
+
+<html>
+
+	<head>
+		<title>CSS Challenge</title>
+		<meta charset="utf-8">
+		<link href="stylesheet.css" rel="stylesheet">
+		<link href='http://fonts.googleapis.com/css?family=Arapey:400,400italic' rel='stylesheet' type='text/css'>
+	</head>
+
+	<body>
+		<header>
+			<img src="images/logo.png" alt="CSS Challenge Logo" id="logoimg">
+			<p id="headertext">Welcome to your first full page web<br>layout CSS challenge.</p>
+			<nav>
+				<ul>
+					<li><a class="navbar" href="#">HOME</a></li>
+					<li><a class="navbar" href="#">ABOUT</a></li>
+					<li><a class="navbar" href="#">SERVICES</a></li>
+					<li><a class="navbar" href="#">BLOG</a></li>
+					<li><a class="navbar" href="#">PROJECTS</a></li>
+					<li><a class="navbar" href="#">CONTACTS</a></li>
+				</ul>	
+			</nav>	
+		</header>
+
+		<div id="wrapper">
+
+			<section id="toppictextbox">
+				<img src="images/slide02.jpg" alt="Modern Home and Pool at Night" id="modernpool">
+				<h1 class="arapeyfont" id="bigheadline">Your favorite CSS<br> attributes altogether</h1>
+			</section>
+
+
+			<section id="threedetailsbanner">
+				<article id="planning">
+					<img src="images/banner-img01.jpg" alt="Outside Column and Skylight">
+					<h2 class="arapeyfont">Planning</h2>
+					<p>Saepe oporteat in vel. Vero porro nonumy ad nam, quod aliquando per et...</p>
+					<div id="detailsbutton1">
+					</div>
+				</article>
+
+				<article id="coding">
+					<img src="images/banner-img02.jpg" alt="Curved Roof">
+					<h2 class="arapeyfont">Coding</h2>
+					<p>Saepe oporteat in vel. Vero porro nonumy ad nam, quod aliquando per et...</p>
+					<div id="detailsbutton2">
+					</div>
+				</article>
+
+				<article id="optimize">
+					<img src="images/banner-img03.jpg" alt="Inside Column and Skylight">
+					<h2 class="arapeyfont">Optimize</h2>
+					<p>Saepe oporteat in vel. Vero porro nonumy ad nam, quod aliquando per et...<p>
+					<div id="detailsbutton3">
+					</div>
+				</article>
+			</section>	
+
+
+
+
+
+
+
+
+			
+
+			<section id="bottomleftbox">
+				<article id="creativedesign">
+					<img src="images/home-img.jpg" alt="modern home and driveway">
+					<h2 class="arapeyfont">Creative Design Ideas</h2>
+					<p class="arapeyfont">Saepe oporteat in vel. Vero porro nonumy ad nam, quod aliquando per et, iusto fastidii mel no. In cum luptatum phaedrum repudiandae. </p>
+					<p>His malorum invidunt voluptatibus at, his ei omnis intellegat necessitatibus. Saepe oporteat in vel</p>
+				</article>
+
+				<article id="popularposts">
+					<h2 class="arapeyfont">Popular Posts</h2>
+					<ul>
+						<li class="arapeyfont">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+					</ul>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+					<p>By: <span>Admin</span></p>
+					
+					<ul>
+						<li class="arapeyfont">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+					</ul>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+					<p>By: <span>Admin</span></p>
+				</article>
+				
+				<article id="newperspectives">
+					<h2 class="arapeyfont">New Perspectives in Design</h2>
+					<p id="highlight" class="arapeyfont">	Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+					<p>Saepe oporteat in vel. Vero porro nonumy ad nam, quod aliquando per et.</p>
+					<div id="detailsbutton4">
+					</div>
+			</section> 
+
+			<aside>
+				<h3>HIGHLIGHTS</h3>
+				<article id="july14">
+					<img src="images/date-bg.gif" alt="date on calendar">
+					<h4>Lorem ipsum dolor sit.</h4>
+					<p>Saepe oporteat in vel. Vero porro nonumy ad nam, quod aliquando per et.</p>
+					<a href="" class="detailslink">Read Details</a>
+				</article>
+
+				<article id="april14">
+					<img src="images/date-bg.gif" alt="date on calendar">
+					<h4>Lorem ipsum dolor sit.</h4>
+					<p>Saepe oporteat in vel. Vero porro nonumy ad nam, quod aliquando per et.</p>
+					<a href="" class="detailslink">Read Details</a>
+				</article>				
+				<article id="march14">
+					<img src="images/date-bg.gif" alt="date on calendar">
+					<h4>Lorem ipsum dolor sit.</h4>
+					<p>Saepe oporteat in vel. Vero porro nonumy ad nam, quod aliquando per et.</p>
+					<a href="" class="detailslink">Read Details</a>
+				</article>				
+			</aside>	
+		</div>
+
+		<footer>
+			<p>CSS Challenge by <a href="" id="adamscottlink">Adam Scott</p>
+		</footer>
+
+	</body>
+
+</html>
